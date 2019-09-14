@@ -1,0 +1,31 @@
+.top {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.intro {    
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.team-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.team-name {
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
