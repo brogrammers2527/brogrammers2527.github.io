@@ -1,6 +1,6 @@
 .header {
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -104,7 +104,7 @@ li > a {
     font-size: 62.5%; }
   
   body {
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.7;
     color: #777;
@@ -230,40 +230,39 @@ li > a {
   
   .section-about {
     background-color: #f7f7f7;
-    padding: 25rem 0 50rem 0;
-    margin-top: -20vh; }
+    padding: 15rem 0 15rem 0;
+     }
   
-  .section-skill {
+  .section-member {
     padding: 10rem 0 20rem 0;
     background-image: linear-gradient(to right bottom, rgba(68, 70, 68, 0.9), rgba(58, 65, 62, 0.9)), url(images/codea.png);
     background-size: cover;
-    transform: skewY(-7deg);
-    margin-top: -10rem; }
-    .section-skill > * {
-      transform: skewY(7deg); }
+    margin-bottom: 10rem;
+     }
+    
   
   .section-project {
     background-color: #f7f7f7;
     padding: 30rem 0 15rem 0;
     margin-top: -20rem; }
   
-  .row {
-    width: 100%;
-    max-width: 114rem;
-    margin: 0 auto;
-    content: "";
-    clear: both;
-    display: table; }
-    .row:not(:last-child) {
-      margin-bottom: 8rem; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 6rem; }
-    .row .col-1-of-2 {
+    .row {
       width: 100%;
-      float: right; }
-    .row .col-1-of-3 {
-      width: calc((100% - 2 * 6rem) / 3);
-      float: left; }
+      max-width: 114rem;
+      margin: 0 auto;
+      content: "";
+      clear: both;
+      display: table; }
+      .row:not(:last-child) {
+        margin-bottom: 8rem; }
+      .row [class^="col-"]:not(:last-child) {
+        margin-right: 6rem; }
+      .row .col-1-of-2 {
+        width: calc((100% - 6rem) / 2);
+        float: left; }
+      .row .col-1-of-3 {
+        width: calc((100% - 2 * 6rem) / 3);
+        float: left; }
   
   .composition {
     position: relative; }
@@ -448,3 +447,9 @@ li > a {
       text-transform: uppercase;
       float: right; }
     
+
+    .team-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
