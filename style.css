@@ -130,6 +130,11 @@ html {
     font-size: 62.5%;
 }
 
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
