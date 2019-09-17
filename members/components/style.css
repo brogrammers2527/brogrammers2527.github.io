@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
 *,
 *::before,
 *::after {
@@ -7,7 +9,7 @@
 }
 
 body {
-    font-family: "Open Sans", "Helvetica Neue";
+    font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: #777;
@@ -113,7 +115,7 @@ body {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 27px;
+    font-size: 22px;
     z-index: 3;
 }
 
@@ -140,7 +142,7 @@ body {
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 18px;
     color: #7ed56f;
 }
 
@@ -149,7 +151,7 @@ body {
     top: 88%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 18px;
     color: #4e54c8;
     text-shadow: 2px 2px 8px #8f94fb;
 }
